@@ -102,4 +102,26 @@ html {
   scroll-margin-top: 100px; /* Adjust if needed */
 }
 
+.contact-section {
+  background-color: #f8f9fa;
+  color: #212529; /* Bootstrap's default dark text */
+}
+
+.contact-section .shadow-sm {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-section .shadow-sm:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.contact-section h2,
+.contact-section h5,
+.contact-section p {
+  color: #212529; /* Ensure text is dark and readable */
+}
+
+
+
 
