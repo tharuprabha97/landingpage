@@ -96,4 +96,10 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Fix anchor jump on mobile */
+#learnMoreForm,
+#registrationForm {
+  scroll-margin-top: 100px; /* Adjust if needed */
+}
+
 
