@@ -123,5 +123,19 @@ html {
 }
 
 
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+
+.footer {
+  background-color: #022c43;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
 
 
